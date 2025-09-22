@@ -1,0 +1,42 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development*
+.env.production*
+.env.test*
+.env*.local
+
+# Firebase local state
+.firebase/
+firebase-debug.log
+storage_debug.log
+
+# Functions
+functions/lib/
+functions/node_modules/
+
+# Web
+web/node_modules/
+web/dist/
+web/.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
