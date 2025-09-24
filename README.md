@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CogniTutor AI (Firebase & Gemini Edition)
 
 A hyper-personalized e-learning platform centered on a one-on-one tutoring experience with an AI mentor. Built with React (Vite + TypeScript), Firebase (Auth, Firestore, Functions, Hosting), and Google Gemini.
@@ -49,3 +50,6 @@ A hyper-personalized e-learning platform centered on a one-on-one tutoring exper
 ## Notes
 - Never commit real secrets. Use Firebase config for Gemini and .env for client-side keys.
 - Default Functions region is us-central1; adjust as needed.
+=======
+# PersonalTeacher
+>>>>>>> 0d1676bef65634d339577a29b4480c1b61215065
