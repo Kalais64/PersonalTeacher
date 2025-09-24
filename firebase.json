@@ -14,7 +14,7 @@
     "rules": "firestore.rules"
   },
   "emulators": {
-    "functions": { "port": 5001 },
+    "functions": { "port": 5005 },
     "firestore": { "port": 8080 },
     "auth": { "port": 9099 },
     "ui": { "enabled": true }

@@ -4,6 +4,7 @@ import ChatPage from './pages/ChatPage';
 import QuizPage from './pages/QuizPage';
 import ProfilePage from './pages/ProfilePage';
 import AuthPage from './pages/AuthPage';
+import NoteDetailPage from './pages/NoteDetailPage';
 import { useAuth } from './hooks/useAuth';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/auth" element={<AuthPage />} />
+          <Route path="/note/:id" element={<NoteDetailPage />} />
         </Routes>
       </main>
     </div>
